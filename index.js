@@ -4,7 +4,9 @@ function takeANumber(l, n) {
 
 function nowServing(l) {
   if (l.length > 0) {
-
+    serving = l[0]
+    l.unshift()
+    return serving
   }
   else {
     return "There is nobody waiting to be served!"
