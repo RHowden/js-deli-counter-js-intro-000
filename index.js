@@ -6,7 +6,7 @@ function nowServing(l) {
   if (l.length > 0) {
     var serving = l[0]
     l.unshift()
-    return 'Currently serving' + serving
+    return 'Currently serving ' + serving
   }
   else {
     return "There is nobody waiting to be served!"
@@ -17,10 +17,10 @@ function currentLine(l) {
   if (l.length > 0) {
     var result = 'The line is currently :'
 
-    for (var i = 0; i < l.length; i++) {
-      result += l[i]
+    for (var i = 0; i < l.length - 1; i++) {
+      result += ` ${i + 1}. l[i], `
     }
-
+result += ` ${l.length - 1 + 1}. ${l[l.length - 1]}`
     return result
   }
   else {
