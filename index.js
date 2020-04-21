@@ -1,5 +1,5 @@
 function takeANumber(l, n) {
-  l.pop(n)
+  l.push(n)
   return `Welcome, ${n}. You are number ${l.length + 1} in line.`
 }
 
