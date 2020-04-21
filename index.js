@@ -1,10 +1,10 @@
 function takeANumber(l, n) {
-  
+
 }
 
 function nowServing(l) {
   if (l.length > 0) {
-    
+
   }
   else {
     return "There is nobody waiting to be served!"
