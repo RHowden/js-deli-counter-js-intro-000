@@ -6,7 +6,7 @@ function takeANumber(l, n) {
 function nowServing(l) {
   if (l.length > 0) {
     var serving = l[0]
-    l = l.unshift()
+    l.shift()
     return `Currently serving ${serving}.`
   }
   else {
