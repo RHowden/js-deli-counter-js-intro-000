@@ -6,7 +6,7 @@ function nowServing(l) {
   if (l.length > 0) {
     var serving = l[0]
     l.unshift()
-    return `Currently serving ${serving}.` 
+    return `Currently serving ${serving}.`
   }
   else {
     return "There is nobody waiting to be served!"
