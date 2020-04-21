@@ -4,7 +4,7 @@ function takeANumber(l, n) {
 
 function nowServing(l) {
   if (l.length > 0) {
-    serving = l[0]
+    var serving = l[0]
     l.unshift()
     return serving
   }
@@ -15,7 +15,7 @@ function nowServing(l) {
 
 function currentLine(l) {
   if (l.length > 0) {
-    result = 'The line is currently :'
+    var result = 'The line is currently :'
 
     for (var i = 0; i < l.length; i++) {
       result += l[i]
