@@ -15,7 +15,7 @@ function nowServing(l) {
 
 function currentLine(l) {
   if (l.length > 0) {
-    var result = 'The line is currently :'
+    var result = 'The line is currently:'
 
     for (var i = 0; i < l.length - 1; i++) {
       result += ` ${i + 1}. ${l[i]}, `
