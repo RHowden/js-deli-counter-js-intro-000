@@ -1,5 +1,5 @@
 function takeANumber(l, n) {
-
+  l.pop(n)
 }
 
 function nowServing(l) {
